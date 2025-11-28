@@ -1,0 +1,110 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# TypeScript / Deno
+*.js
+*.js.map
+.deno/
+deno.lock
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/
+mvnw
+mvnw.cmd
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+bin/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+*.egg
+
+# C#
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.suo
+*.user
+*.userprefs
+*.pidb
+.vs/
+*.DotSettings.user
+TestResults/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Build outputs
+out/
+dist/
+build/
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
