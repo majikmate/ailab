@@ -65,6 +65,7 @@ applyTo: '**/*.cs'
 
 - **Formatting**: Follow C# conventions (4-space indentation, Allman brace style or K&R)
 - **Linting**: Configure `.editorconfig` for consistent style; use analyzers
+- **Deprecated APIs**: Avoid using deprecated or obsolete APIs; use modern alternatives and check compiler warnings
 - **Verification**: Always run `dotnet test` before committing
 - **Documentation**: Use XML documentation (`///`) for public APIs and non-obvious business rules
 

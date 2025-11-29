@@ -103,6 +103,7 @@ test {
 
 - **Formatting**: Follow standard Java conventions (4-space indentation, braces on same line)
 - **Linting**: Run `gradle checkstyleMain` or configure your IDE formatter
+- **Deprecated APIs**: Avoid using `@Deprecated` methods and classes; use modern alternatives and address compiler warnings
 - **Verification**: Always run `gradle test` before committing
 - **Documentation**: Use Javadoc for public APIs and non-obvious business rules
 

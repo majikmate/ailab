@@ -61,6 +61,7 @@ applyTo: '**/*.py'
 - **Formatting**: Follow PEP 8 (4-space indentation, 79-character line limit)
 - **Linting**: Run `black .` for formatting, `flake8` or `ruff` for linting
 - **Type checking**: Run `mypy src/` for static type analysis
+- **Deprecated APIs**: Avoid using deprecated functions and modules; check `DeprecationWarning` messages and use modern alternatives
 - **Verification**: Always run `pytest` before committing
 - **Documentation**: Use docstrings for classes and public methods
 

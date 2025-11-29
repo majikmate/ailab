@@ -57,6 +57,7 @@ applyTo: '**/*.ts'
 
 - **Formatting**: Follow `deno.jsonc` settings (4-space indentation)
 - **Linting**: Run `deno fmt` after changes
+- **Deprecated APIs**: Avoid using deprecated Deno or TypeScript APIs; use `deno lint` to catch deprecated usage
 - **Verification**: Always run `deno test --allow-read --allow-write --allow-net` before committing
 - **Documentation**: Add brief comments for non-obvious business rules
 
